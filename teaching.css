@@ -1,0 +1,135 @@
+body{
+    background-color:#bbf2ee ;
+}
+
+.ta1{
+    width: 102%;
+    background-color: #2fcfc6;
+    margin: -1%;
+    margin-bottom: 1%;
+}
+
+.log_in {  
+    color: #2fcfc6;
+    background-color: #c7fffc;
+    border-radius: 10px;
+    margin-top:30%; 
+    width: 50%;
+    margin-left: 20%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.logo{
+   width: 20%;
+}
+
+footer{
+    text-align: center;
+    background-color: #2fcfc6;
+    height: 5vh;
+    margin-left: -1%;
+    width: 100.5%;
+    line-height: 5vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.ta2{
+    margin: auto;
+    width: 80%;
+    border:10px solid #2fcfc6;
+    border-top:1px solid #2fcfc6;
+    border-radius: 10px;
+}
+
+.td2{
+    font-size: 30px;
+    padding-left: 2%;
+    font-weight: bold;
+    padding-bottom: 1%;
+    color: #c7fffc;
+    padding-top: 1%;
+}
+
+.td3{
+    width: 10%;
+}
+
+
+.tr1{
+    border:0px;
+    background-color: #2fcfc6;
+}
+
+.tr2{
+
+}
+
+.back{
+    color: #2fcfc6;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: #c7fffc;
+    border:3px solid #2fcfc6;
+    border-radius: 10px;
+}
+
+.video1{
+    float: left;
+    text-align: center;
+    width: 40%;
+    height: 40vh;
+    background-color: #2fcfc6;
+    margin: 3%;
+    color: #c7fffc;
+}
+.video2{
+    color: #c7fffc;
+    float: right;
+    text-align: center;
+    width: 40%;
+    height: 40vh;
+    background-color: #2fcfc6;
+    margin: 3%;
+}
+
+@media screen and (max-width: 768px)
+{
+    .logo{
+        width: 50%;
+    }
+    .log_in {  
+        margin-top: 80%; 
+        margin-left: -10%;
+        width: 80%;
+    }
+
+    .ta1{
+        margin-bottom: 3%;
+    }
+
+    .td3{
+        width: 20%;
+    }
+
+    .video1{
+        float: none;
+        text-align: center;
+        width: 80%;
+        height: 30vh;
+        background-color: #2fcfc6;
+        margin: 3% auto ;
+    }
+    .video2{
+        float: none;
+        text-align: center;
+        width: 80%;
+        height: 30vh;
+        background-color: #2fcfc6;
+        margin: 3% auto ;
+    }
+}
