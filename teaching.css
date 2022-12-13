@@ -104,8 +104,8 @@ footer{
     }
     .log_in {  
         margin-top: 80%; 
-        margin-left: -10%;
-        width: 80%;
+        margin-left: -5%;
+        width: 100%;
     }
 
     .ta1{
@@ -116,11 +116,15 @@ footer{
         width: 20%;
     }
 
+    .back{
+        font-size: 26px;
+    }
+
     .video1{
         float: none;
         text-align: center;
         width: 80%;
-        height: 30vh;
+        height: 25vh;
         background-color: #2fcfc6;
         margin: 3% auto ;
     }
@@ -128,7 +132,7 @@ footer{
         float: none;
         text-align: center;
         width: 80%;
-        height: 30vh;
+        height: 25vh;
         background-color: #2fcfc6;
         margin: 3% auto ;
     }
