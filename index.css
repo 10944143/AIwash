@@ -1,14 +1,3 @@
-body{
-    background-color:#bbf2ee ;
-}
-
-.ta1{
-    width: 102%;
-    flex: content;
-    background-color: #2fcfc6;
-    margin: -1%;
-    margin-bottom: 1%;
-}
 
 .ta2{
     width: 80%;
@@ -21,29 +10,18 @@ body{
 }
 
 .ta3{
-    width: 80%;
+    display: flex;
+    justify-content: center;
     margin: auto;
-    height: 40vh;
-    
+    height: 35vh; 
     margin-bottom: 1%;
+    width: 80%;
 }
 
 .td1{
     width: 10%;
 }
 
-.log_in {  
-    color: #2fcfc6;
-    background-color: #c7fffc;
-    border-radius: 10px;
-    margin-top:30%; 
-    width: 50%;
-    margin-left: 20%;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-
-}
 
 .new{
     text-align: center;
@@ -54,6 +32,7 @@ body{
     border-radius: 100%;
     background-color: #c7fffc;
     margin-left: 90%;
+    margin-bottom: 1%;
 }
 
 .text1{
@@ -71,74 +50,70 @@ body{
 
 .text3{
     text-align: center;
-    line-height:40vh;
-    height: 40vh;
-    font-size: 38px;
+    font-size: 34px;
     border: 3px solid  #2fcfc6;
     border-radius: 10px;
     background-color: #c7fffc;
-    margin: 10%;
+    margin-right: 0%;
+    padding: 10% 30px;    
+    height: 30vh;
+    line-height: 30vh;
 }
 
-.logo{
-   width: 20%;
-}
 
-footer{
-    text-align: center;
-    background-color: #2fcfc6;
-    height: 5vh;
-    margin-left: -1%;
-    width: 100.5%;
-    line-height: 5vh;
-    position: absolute;
-    bottom: 0;
-    margin-top: 7.2%;
+@media screen and (max-width: 900px)
+{
+    .text3{
+        font-size: 30px;
+        padding: 13% 8px 0%;
+    }
 }
-
 @media screen and (max-width: 768px)
 {
-    .logo{
-        width: 50%;
-    }
-    .log_in {  
-        margin-top: 80%; 
-        margin-left: -10%;
-        width: 80%;
-    }
-
-    .ta1{
-        margin-bottom: 3%;
-    }
-
     .ta2{
         margin-bottom: 3%;
     }
-
+    .btn{
+        display: block;
+        height: auto;
+    }
     .ta3{
+        flex-direction: column;
         width: 80%;
-        margin: auto;
-        height: 20vh;
-        margin-bottom: 1%;
+        margin: auto auto 1%;
+        height: 20%; 
     }
 
     .td1{
-        width: 20%;
+        width: 25%;
     }
-    .text3{
-        text-align: center;
-        line-height:10vh;
-        height: 40vh;
-        font-size: 30px;
-        border: 3px solid  #2fcfc6;
-        border-radius: 10px;
-        background-color: #c7fffc;
-        margin: 10% 20%;
-    }
-    
-    .new{
-        width: 6%;
-        margin-bottom: 3%;
 
+    .text1{
+        font-size: 14px;
+    }
+
+    .text2{
+        font-size: 12px;
+    }
+
+    .text3{
+        font-size: 30px;
+        margin-left: -50%;
+        margin-top: 20%;
+        padding: 5% 20%;
+        height: 100%;
+        width: 150%;
+        line-height:100%;
+    }
+    #small{
+        margin-top: 5%;
+    }
+    .new{
+        margin-left: 85%;
+        font-size: 30px;
+        width: 9%;
+        border: 5px solid #2fcfc6;
+        margin-bottom: 2%;
 }
+
 }

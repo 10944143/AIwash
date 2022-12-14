@@ -1,0 +1,160 @@
+body{
+    background-color:#bbf2ee ;
+}
+
+.ta1{
+    width: 102%;
+    background-color: #2fcfc6;
+    margin: -1%;
+    margin-bottom: 1%;
+}
+
+.log_in {  
+    color: #2fcfc6;
+    background-color: #c7fffc;
+    border-radius: 10px;
+    margin-top:30%; 
+    width: 50%;
+    margin-left: 20%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.logo{
+   width: 20%;
+}
+
+footer{
+    text-align: center;
+    background-color: #2fcfc6;
+    height: 5vh;
+    margin-left: -1%;
+    width: 100.5%;
+    line-height: 5vh;
+    margin-top: 7.2%;
+}
+
+.ta2{
+    display: flex;
+    justify-content: center;
+}
+.td1{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0%;
+    width: 80%;
+    border: #c7fffc 2px solid;
+    background-color: #2fcfc6;
+    color: azure;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 15% 8% 5% 25%;
+    border: #c7fffc 2px solid;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2% 3%;
+}
+.text1{
+    border: #c7fffc 2px solid;
+    margin: 2% auto;
+    background-color: #e8fefd;
+    color:black;
+    width: 40%;
+    margin-left: 8%;
+}
+#n{
+    font-size: 60px;
+    padding-left: 10%;
+}
+.m{
+    margin:5% 10%;
+}
+.set{
+    text-align: right;
+    margin-right: 5%;
+}
+.text2{
+    width: 40vh;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    font-weight: bold;
+    font-size: 35px;
+    border: #2fcfc6 2px solid;
+    color: #2fcfc6;
+    background-color: #e8fefd;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .logo{
+        width: 50%;
+    }
+    .log_in {  
+        margin-top: 80%; 
+        margin-left: -5%;
+        width: 100%;
+    }
+
+    .ta1{
+        margin-bottom: 3%;
+    }
+    .td1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0%;
+        width: 80%;
+        border: #c7fffc 2px solid;
+        background-color: #2fcfc6;
+        color: azure;
+    }
+    .img{
+        display: block;
+        margin: 10% auto;
+    }
+    .btn{
+        justify-content: center;
+        margin: 10% auto;
+
+    }
+    .text1{
+        border: #c7fffc 2px solid;
+        margin: 2% auto;
+        background-color: #e8fefd;
+        color:black;
+        width: 60%;
+    }
+    #n{
+        font-size: 40px;
+        padding-left: 10%;
+    }
+    .m{
+        margin:5% 10%;
+    }
+    .set{
+        text-align: right;
+        margin-right: 5%;
+    }
+    .text2{
+        width: 40vh;
+        height: 10vh;
+        text-align: center;
+        line-height: 10vh;
+        font-weight: bold;
+        font-size: 25px;
+        border: #2fcfc6 2px solid;
+        color: #2fcfc6;
+        background-color: #e8fefd;
+    }
+    
+
+}
