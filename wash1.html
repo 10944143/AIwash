@@ -20,10 +20,12 @@
         if (w1.style.display === 'none') {
             w1.style.display = 'block';
             w2.style.display = 'none';
-            wash.innerText = "<外送";
+            wash.innerText = "外送";
             wash1.innerText = "自取";
-            document.getElementById("wash").style.color = "white";
-            document.getElementById("wash1").style.color = "black";
+            document.getElementById("wash1").style.color = "#c7fffc";
+            document.getElementById("wash").style.color = "#2fcfc6";
+            document.getElementById("wash").style.backgroundColor = "#c7fffc";
+            document.getElementById("wash1").style.backgroundColor = "#2fcfc6";
         } 
     }
     function listBtn1() {
@@ -35,11 +37,13 @@
             w2.style.display = 'block';
             w1.style.display = 'none';
             wash.innerText = "外送";
-            wash1.innerText = "<自取";
-            document.getElementById("wash").style.color = "black";
-            document.getElementById("wash1").style.color = "white";
-        }
+            wash1.innerText = "自取";
+            document.getElementById("wash").style.color = "#c7fffc";
+            document.getElementById("wash1").style.color = "#2fcfc6";
+            document.getElementById("wash1").style.backgroundColor = "#c7fffc";
+            document.getElementById("wash").style.backgroundColor = "#2fcfc6";
     }
+}
     </script>
 
 <body>
@@ -53,7 +57,7 @@
 
     <table class="ta2" >
         <tr class="tr1">
-            <td class="td3"><a href="index.html"><div class="back"><返回</div></a></td>
+            <td class="td3"><div><a href="index.html"  class="back"><返回首頁</a></div></td>
         </tr>
         <tr>
             <td>
@@ -61,26 +65,31 @@
                     <table class="ta3" >
                         <tr class="tr1">
                             <td>
-                                <div id="wash" onclick="listBtn()" class="t1" style="color: white;"><外送</div>
+                                <div id="wash" onclick="listBtn()" class="t1">外送</div>
                             </td>
                             <td>
-                                <div id="wash1" onclick="listBtn1()" class="t1">自取</div>
+                                <div id="wash1" onclick="listBtn1()" class="t2">自取</div>
                             </td>
                         </tr>
                         <tr>
                             <td  colspan="2">
-                                <div id="w1" style="display:block;" class="t1">
+                                <div id="w1" style="display:block;" class="t3">
                                     地址
                                     <input type="text">
                                 </div>
-                                <div id="w2" style="display:none;" class="t1">
-                                    店家
+                                <div id="w2" style="display:none;" class="t3">
+                                    店家<br>
+                                    <select name="store" style="width: 80%;">
+                                        <option value="store1">1號店</option>
+                                        <option value="store2" >2號店</option>
+                                        <option value="store3">3號店</option>
+                                    </select>
                                 </div>
                             </td>
                         </tr>
                         <tr>
                             <td class="td1"   colspan="2">
-                                <a href="index.html">確定 </a>
+                                <a href="wash2.html" class="next">下一步 </a>
                             </td>
                         </tr>
                    

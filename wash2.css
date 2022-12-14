@@ -21,7 +21,22 @@
 
 .td1{
     text-align: center;
+}
 
+.div1{
+    margin:auto;
+    text-align: center;
+    background-color: #c7fffc;
+    width: 80%;
+    border-radius: 5px;
+    color: #2fcfc6;
+    font-weight: bold;
+    font-size: 18px;
+    height: 5vh;
+}
+
+.div2{
+    font-size: 12px;
 }
 
 .tr1{
@@ -35,7 +50,6 @@
     font-weight: bold;
     font-size: 30px;
     border-radius: 10px;
-    
 }
 
 .t1{
@@ -56,16 +70,21 @@
     color: #2fcfc6;
     font-weight: bold;
     font-size: 18px;
+    margin-top: -3%;
 }
 
 .next{
-    font-size: 18px;
+    font-size: 18;
     color: #c7fffc;
     font-weight: bolder;
     background-color: #2fcfc6;
     border-radius: 10px;
-    width: 50%;
-    padding: 5% 10%;
+    padding: 3% 10%;
+    margin: auto;
+}
+
+.num{
+    width: 30%;
 }
 
 @media screen and (max-width: 768px)
@@ -78,7 +97,7 @@
     .ta3{
         
         width: 80%;
-        height: 50vh;
+        height: 55vh;
     }
     
 
@@ -93,4 +112,9 @@
         margin-top: 7.2%;
     }
     
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
 }
